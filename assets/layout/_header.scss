@@ -3,11 +3,14 @@ header {
     text-transform: uppercase;
     font-size: 3rem;
     line-height: 1.3;
-    width: 33%;
     margin: 30px auto;
+    width: 38%;
+    letter-spacing: 6px;
+    font-weight: 800;
   }
   p {
     font-style: italic;
+    font-weight: 100;
   }
   &::after {
     content: "";

@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Inter";
-  src: url(./fonts/Inter-VariableFont_opsz\wght.ttf);
+  src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
 @font-face {
   font-family: "Merriweather";
-  src: url(./fonts/Merriweather-VariableFont_opsz\wdth\wght.ttf);
+  src: url(../fonts/Merriweather-VariableFont_opsz\,wdth\,wght.ttf);
 }
 
 $white: rgb(253, 250, 250);
@@ -16,12 +16,16 @@ $black: rgb(11, 10, 10);
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-family: "Inter", "Merriweather", sans-serif;
 }
 
 body {
+  font-family: "Inter", sans-serif;
   min-height: 100vh;
-  background: url(./img/bg.jpg) fixed center/cover;
+  background: url(../img/bg.jpg) fixed center/cover;
+}
+
+p {
+  font-family: "Merriweather", sans-serif;
 }
 
 button {
