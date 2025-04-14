@@ -1,0 +1,20 @@
+.section-1 {
+  background: $white;
+  min-height: 100vh;
+  margin: 0 150px;
+
+  .date-container {
+    text-align: center;
+    padding: 50px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+    }
+  }
+}
