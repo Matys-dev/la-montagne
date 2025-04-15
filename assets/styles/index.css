@@ -158,17 +158,22 @@ nav ul.right-part {
   text-transform: uppercase;
   padding: 0 260px;
   line-height: 1.3;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+  font-weight: 800;
 }
 .section-1 .title-container p {
-  margin: 30px 200px;
+  margin: 30px 250px;
   font-style: italic;
-  line-height: 2;
+  line-height: 2.4;
   font-size: 0.9rem;
+  font-weight: 200;
 }
 .section-1 .img-section1 {
+  height: 80vh;
   background: url(../img/pic01.jpg) center/cover;
+  margin: 30px 70px;
 }
 .section-1 .btn-container {
   text-align: center;
+  padding: 10px 0 50px;
 }/*# sourceMappingURL=index.css.map */
