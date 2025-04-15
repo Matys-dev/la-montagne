@@ -176,4 +176,80 @@ nav ul.right-part {
 .section-1 .btn-container {
   text-align: center;
   padding: 10px 0 50px;
+}
+
+.section-2 {
+  background: rgb(253, 250, 250);
+  margin: 0 150px;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.section-2 .left-part .date-container {
+  text-align: center;
+  padding: 50px 50px 20px;
+}
+.section-2 .left-part .date-container p {
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+.section-2 .left-part .title-container h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  font-weight: 800;
+  width: 46%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-2 .left-part .title-container .img {
+  height: 39vh;
+  background: url(../img/pic02.jpg) center/cover;
+  margin: 20px 45px;
+}
+.section-2 .left-part .title-container p {
+  font-style: italic;
+  line-height: 2.4;
+  font-size: 0.8rem;
+  font-weight: 200;
+  margin: 0 45px;
+}
+.section-2 .left-part .btn-container {
+  text-align: center;
+  padding: 30px 0 30px;
+}
+.section-2 .right-part .date-container {
+  text-align: center;
+  padding: 50px 50px 20px;
+}
+.section-2 .right-part .date-container p {
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+.section-2 .right-part .title-container h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  font-weight: 800;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-2 .right-part .title-container .img {
+  height: 39vh;
+  background: url(../img/pic03.jpg) center/cover;
+  margin: 20px 45px;
+}
+.section-2 .right-part .title-container p {
+  font-style: italic;
+  line-height: 2.4;
+  font-size: 0.8rem;
+  font-weight: 200;
+  margin: 0 45px;
+}
+.section-2 .right-part .btn-container {
+  text-align: center;
+  padding: 30px 0 30px;
 }/*# sourceMappingURL=index.css.map */
