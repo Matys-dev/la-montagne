@@ -268,4 +268,32 @@ footer {
   min-height: 80vh;
   display: grid;
   grid-template-columns: 50% 50%;
+}
+footer .left-part form {
+  display: grid;
+  grid-template-areas: "labna labna" "name name" "labem labem" "email email" "labme labme" "message message" "btn btn";
+}
+footer .left-part form textarea {
+  resize: none;
+}
+footer label [for=name] {
+  grid-area: labna;
+}
+footer #name {
+  grid-area: name;
+}
+footer label [for=email] {
+  grid-area: labem;
+}
+footer #email {
+  grid-area: email;
+}
+footer label [for=message] {
+  grid-area: labme;
+}
+footer #message {
+  grid-area: message;
+}
+footer input {
+  grid-area: btn;
 }/*# sourceMappingURL=index.css.map */

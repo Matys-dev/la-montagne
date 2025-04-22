@@ -1,7 +1,51 @@
 footer {
-    background: $grey;
-    margin: 30px 150px;
-    min-height: 80vh;
+  background: $grey;
+  margin: 30px 150px;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  .left-part form {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "labna labna"
+      "name name"
+      "labem labem"
+      "email email"
+      "labme labme"
+      "message message"
+      "btn btn";
+
+    textarea {
+      resize: none;
+    }
+  }
+
+  label [for="name"] {
+    grid-area: labna;
+  }
+
+  #name {
+    grid-area: name;
+  }
+
+  label [for="email"] {
+    grid-area: labem;
+  }
+
+  #email {
+    grid-area: email;
+  }
+
+  label [for="message"] {
+    grid-area: labme;
+  }
+
+  #message {
+    grid-area: message;
+  }
+
+  input {
+    grid-area: btn;
+  }
 }
