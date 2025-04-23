@@ -470,6 +470,9 @@ footer .right-part .social ul {
   gap: 40px;
   font-size: 0.9rem;
 }
+footer .right-part .social li {
+  cursor: pointer;
+}
 footer .right-part .social li:nth-child(1)::after {
   content: "";
   position: absolute;
