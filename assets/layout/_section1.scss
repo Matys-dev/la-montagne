@@ -2,15 +2,6 @@
   background: $white;
   margin: 0 150px;
   min-height: 100vh;
-  position: relative;
-
-  &::after {
-    position: absolute;
-    content: "";
-    height: 1px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.082);
-  }
 
   .date-container {
     text-align: center;
